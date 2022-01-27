@@ -1,0 +1,135 @@
+body{
+  font-family: "Montserrat";
+}
+#title{
+  background-color: #AEFEFF;
+}
+h1{
+  font-family: "Montserrat";
+  font-weight: bolder;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 15%;
+  margin-bottom: 3rem;
+}
+/* eEEEEEEEEE */
+/* Navigation Bar */
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding-bottom: 2.5rem;
+}
+.nav-item{
+  padding: 0 14px;
+}
+.nav-link{
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+.navbar-toggler{
+  border: 1px solid rgba(0,0,0,.9) !important;
+}
+
+.btn-outline-light{
+  color: rgba(0,0,0,.9);
+  border: 1px solid rgba(0,0,0,.9);
+}
+.btn:hover{
+  background-color: #4FBDBA;
+  border: 1px solid #AEFEFF;
+}
+
+/* Title Image */
+.image-container{
+  text-align: center;
+}
+.image-container img{
+  width: 20rem;
+}
+.title-img{
+  border-radius: 8px;
+}
+
+/* Features */
+#features{
+  padding: 7% 15%;
+}
+.fa-bullseye, .fa-check-circle, .fa-heart{
+  color: #4FBDBA;
+  margin-bottom: 1rem;
+  font-size: 4rem;
+
+}
+.fa-bullseye:hover, .fa-check-circle:hover, .fa-heart:hover{
+  color: #AEFEFF;
+}
+h3{
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+.icon-p{
+  text-align: center;
+  color: #8f8f8f;
+}
+.icon-div{
+  padding: 0 3%;
+  margin-bottom: 20px;
+}
+
+/* Testimonials */
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #AEFEFF;
+  color: rgba(0,0,0,.9);
+}
+.testimonial-image{
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 0 15%;
+}
+.carousel-control-prev{
+  color: #35858B;
+}
+
+/* Pricing */
+#pricing{
+  text-align: center;
+  padding: 5rem;
+}
+.card{
+  border: 1px solid #35858B;
+}
+.btn-primary{
+  background-color: #AEFEFF;
+  color: rgba(0,0,0,0.9);
+  border: none;
+}
+.btn-primary:hover{
+  border:none;
+}
+.card-img{
+  height: 20vw;
+}
+.pricing-column{
+  display: flex;
+  justify-content: center;
+}
