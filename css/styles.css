@@ -116,7 +116,9 @@ h3{
   padding: 5rem;
 }
 .card{
-  border: 1px solid #35858B;
+  border: 2px solid #35858B !important;
+  border-radius: 8px !important;
+  margin: 20px;
 }
 .btn-primary{
   background-color: #AEFEFF;
@@ -128,8 +130,4 @@ h3{
 }
 .card-img{
   height: 20vw;
-}
-.pricing-column{
-  display: flex;
-  justify-content: center;
 }
